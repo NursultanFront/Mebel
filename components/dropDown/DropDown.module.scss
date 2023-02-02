@@ -1,0 +1,20 @@
+.dropdown {
+	position: relative;
+	display: flex;
+
+	&__title {
+		font-weight: 600;
+		font-size: 16px;
+		color: #d2374a;
+		border-bottom: 1px dashed #d2374a;
+	}
+
+	&__wrapper {
+		position: absolute;
+		top: 25px;
+	}
+	&__list {
+	}
+	&__item {
+	}
+}
